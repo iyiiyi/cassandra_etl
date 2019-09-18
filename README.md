@@ -134,7 +134,7 @@ So, the **PK becomes combination of (userId, sessionId, itemInSession)**, where 
 
   - column 1: userId  **<-- Partition Key**
   - column 2: sessionId  **<-- Clustering Column 1**
-  - column 3: itsmInSession  **<-- Clustering Column 2**
+  - column 3: itemInSession  **<-- Clustering Column 2**
   - column 4: artist
   - column 5: song
   - column 6: first_name
